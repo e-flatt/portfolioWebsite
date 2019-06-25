@@ -338,19 +338,20 @@ hr {
     margin-right: auto; }
   .main-nav a {
     color: black;
+    font-weight: 900;
     padding: 15px 30px;
     text-decoration: none;
     display: block;
     transition: all 0.2s ease; }
   .main-nav a:hover {
-    color: #F012BE;
+    color: yellow;
     outline: 0;
     transform: scale(1.01);
     transform: translateY(3px); }
 
 .logo {
   font-weight: 900;
-  font-size: 15px; }
+  font-size: 18px; }
 
 .flex-video {
   height: 0;
