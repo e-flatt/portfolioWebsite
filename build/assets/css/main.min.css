@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize * */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900");
+@import url("https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900&display=swap");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -190,7 +190,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff;
+  background: white;
   font-size: 14px;
   line-height: 1.6;
   font-size: 14px;
@@ -199,7 +199,7 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 .wrapper {
-  width: 100%;
+  width: 90%;
   max-width: 1100px;
   margin: 0 auto; }
 
@@ -268,9 +268,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); }
+  font-family: 'Muli', sans-serif;
+  font-weight: 900; }
 
 .gigantic {
   font-size: 110px;
@@ -326,6 +325,32 @@ hr {
   clear: both;
   margin: 10px 0 30px;
   height: 0; }
+
+#header {
+  background: pink;
+  height: 500px; }
+
+.main-nav {
+  display: flex; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s ease; }
+  .main-nav a:hover {
+    color: #F012BE;
+    outline: 0;
+    transform: scale(1.01);
+    transform: translateY(3px); }
+
+.logo {
+  font-weight: 900;
+  font-size: 15px; }
 
 .flex-video {
   height: 0;
