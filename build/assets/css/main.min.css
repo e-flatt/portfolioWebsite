@@ -224,7 +224,8 @@ input[type="button"] {
   border-radius: 4px;
   cursor: pointer;
   box-sizing: border-box;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  box-shadow: 1px 1px 1px 1px black; }
   .button:hover, .button:active, .button:focus,
   button:hover,
   button:active,
@@ -325,33 +326,6 @@ hr {
   clear: both;
   margin: 10px 0 30px;
   height: 0; }
-
-#header {
-  background: pink;
-  height: 500px; }
-
-.main-nav {
-  display: flex; }
-  .main-nav li {
-    list-style: none; }
-  .main-nav li:first-child {
-    margin-right: auto; }
-  .main-nav a {
-    color: black;
-    font-weight: 900;
-    padding: 15px 30px;
-    text-decoration: none;
-    display: block;
-    transition: all 0.2s ease; }
-  .main-nav a:hover {
-    color: yellow;
-    outline: 0;
-    transform: scale(1.01);
-    transform: translateY(3px); }
-
-.logo {
-  font-weight: 900;
-  font-size: 18px; }
 
 .flex-video {
   height: 0;
