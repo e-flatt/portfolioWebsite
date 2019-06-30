@@ -251,10 +251,10 @@ a {
     color: #F012BE; }
 
 ::selection {
-  background: #FFF498; }
+  background: pink; }
 
 ::-moz-selection {
-  background: #FFF498; }
+  background: pink; }
 
 img::selection {
   background: transparent; }
@@ -263,7 +263,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #FFF498; }
+  -webkit-tap-highlight-color: pink; }
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
